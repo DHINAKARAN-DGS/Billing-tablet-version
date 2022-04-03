@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewPrroductActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add new Product"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/addpname"
+            android:layout_width="550dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+
+            android:hint="Product Name" />
+
+        <EditText
+            android:id="@+id/addpprice"
+            android:layout_width="550dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="Product Price" />
+
+        <EditText
+            android:id="@+id/addpqty"
+            android:layout_width="550dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="Stock quantity" />
+
+        <Button
+            android:id="@+id/addp"
+            android:layout_width="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="25dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

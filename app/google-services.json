@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "64496584148",
+    "project_id": "kadalai-mittai-billing",
+    "storage_bucket": "kadalai-mittai-billing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64496584148:android:a3203176e7c33d42de8241",
+        "android_client_info": {
+          "package_name": "com.example.kadalaimittai.billing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64496584148-gf8eo399fij6o2pp0jlh1vm6n5rtvh6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaqA5-exM-9KGnDY4YMFECEdfy8NRg4bA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64496584148-gf8eo399fij6o2pp0jlh1vm6n5rtvh6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
